@@ -71,9 +71,16 @@ Database Design
     -updated_on: datetime
 
 API Design
--[GET, POST, PUT, PATCH, DELETE] -[GET_LIST, GET_ONE, CREATE, UPDATE_ALL, UPDATE_SOME, DESTROY] -POSTS, USERS, COMMENTS, LIKES, FRIENDS
 
--POST -GET_LIST: returns a list of posts -URL: /api/v1/posts -METHOD: GET -REQUEST -HEADERS: Authorization -BODY:
+    -[GET, POST, PUT, PATCH, DELETE] 
+    -[GET_LIST, GET_ONE, CREATE, UPDATE_ALL, UPDATE_SOME, DESTROY] 
+    -POSTS, USERS, COMMENTS, LIKES, FRIENDS
+
+-POST 
+
+    -GET_LIST: returns a list of posts 
+    -URL: /api/v1/posts -METHOD: GET 
+    -REQUEST -HEADERS: Authorization -BODY:
 
     RESPONSE:
         -HEADERS: Authorization
